@@ -1,0 +1,123 @@
+@media only screen and (max-width: 870px) {
+    .section {
+        padding: 20px;
+    }
+    .content {
+        width: 98%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+     color: #E06E1F;
+    font-family: 'LoveLetter', "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #E06E1F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000;
+    background-color: rgba(255, 111, 0, 0.8);
+}
+
+.background-gradient-header {
+    /* background: linear-gradient(180deg, #d65600 0%, #ff8c00 100%); */
+    padding: 20px 0;
+}
+
+.neon-text {
+     color: #E06E1F;
+    font-weight: 700;
+    text-shadow: 0 0 22px #d65600, 0 0 50px #d65600;
+    font-size: 4em; /* Адаптивный размер шрифта */
+    margin: 0;
+    /* background: linear-gradient(180deg, #d65600 0%, #ff8c00 100%) */
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2em;
+    padding: 10px;
+    /* background-color: rgb(255, 255, 255); */
+    width: 1000px;
+    border-radius: 15px;
+
+}
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.section {
+    box-shadow: 0px 0px 17px 1px rgb(255, 111, 0);
+    margin: 20px 0;
+    border: 1px solid rgb(255, 111, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.section h2 p {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #E06E1F;
+}
+
+.section-icon {
+    margin-right: 10px;
+}
+
+.glitch-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #d65600;
+    border: 2px solid #d65600;
+    box-shadow: 0 0 15px #d65600;
+     color: #E06E1F;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.glitch-btn:hover {
+    box-shadow: 0 0 30px #ff8c00;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-right:20px ;
+    margin-left: 240px;
+}
+/* .nav-bar{
+    background: linear-gradient(180deg, #d65600 0%, #ff8c00 100%);
+    display: flex;
+    justify-content: column;
+} */
+
+.tuy{
+    margin-left: 670px;
+}
+
+.donate-btn{
+    color: white;
+    background-color: #E06E1F;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+}
